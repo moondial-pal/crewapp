@@ -16,5 +16,6 @@ COPY . .
 LABEL maintainer="Luis Palacios <moondiallp@gmail.com>" \
       version="1.0"
 
-CMD if __name__=='__main__':CrewApp().run()
+CMD if __name__=='__main__':
+      CrewApp().run()
     
